@@ -1,0 +1,27 @@
+{
+  "name": "miles-crypto-banking",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crypto",
+    "banking",
+    "flutterwave",
+    "payment"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Miles - Secure Crypto-to-Bank Gateway with Flutterwave Integration",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "helmet": "^8.1.0",
+    "node-fetch": "^3.3.2"
+  }
+}
